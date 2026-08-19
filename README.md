@@ -240,6 +240,12 @@ The dataset is historical and represents a specific credit card portfolio, so mo
 The risk bands are analytical categories rather than regulatory credit ratings, and feature importance or statistical associations should not be interpreted as causal relationships.
 
 ---
+## Installation
+
+Clone the repository and install the required Python packages:
+
+```bash
+pip install -r requirements.txt
 
 ## Conclusion
 
