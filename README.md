@@ -20,23 +20,30 @@ The analysis uses the **UCI Default of Credit Card Clients dataset**, containing
 
 ---
 
-## Dataset
+m## Dataset
 
-The dataset contains **30,000 credit card customers** and includes information on:
+The analysis uses the **Default of Credit Card Clients** dataset from the **UCI Machine Learning Repository**.
+
+The dataset contains information on **30,000 credit card clients in Taiwan** and includes:
 
 * Credit limits
-* Age and demographic characteristics
-* Monthly repayment status
-* Bill statement amounts
+* Demographic characteristics
+* Repayment status
+* Monthly bill statements
 * Previous payment amounts
-* Default status
+* Default payment status
 
-The target variable is binary:
+The data covers repayment and billing information from **April to September 2005**, with the target variable indicating whether a client defaulted on payment in the following month.
+
+**Source:** UCI Machine Learning Repository — Default of Credit Card Clients
+https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+
+The dataset was originally contributed by **I-Cheng Yeh**.
+
+### Target Variable
 
 * `0` — No Default
 * `1` — Default
-
----
 
 ## Exploratory Data Analysis
 
